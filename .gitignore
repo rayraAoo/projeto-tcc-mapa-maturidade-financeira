@@ -1,0 +1,33 @@
+# ---------- Java / Maven (backend) ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# ---------- Node / Vite (frontend) ----------
+node_modules/
+dist/
+.vite/
+
+# ---------- Segredos locais: nunca versionar ----------
+.env
+*.env
+*.local
+application-local.properties
+
+# ---------- IDEs e ferramentas ----------
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+.factorypath
+.apt_generated
+.sts4-cache/
+.DS_Store
+
+# ---------- JDK baixado por extensão do VS Code (já travou o push uma vez, 200 MB) ----------
+oracleJdk-*/
+jdk-*/
